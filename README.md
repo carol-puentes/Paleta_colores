@@ -1,8 +1,32 @@
-# React + Vite
+<h1> ✨ DESCRIPCIÓN </h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un generador de paletas de colores desarrollado en React, que permite obtener diferentes tonos y matices a partir de un color base. Utiliza la biblioteca values.js para la manipulación de colores.
 
-Currently, two official plugins are available:
+<h1> ✨ CARACTERÍSTICAS </h1>
+<ul>
+  <li>
+    🎨 Generación automática de paletas de colores a partir de un código hexadecimal ingresado por el usuario o por su respectivo nombre en ingles.
+  </li>
+  <li>
+    🔍  Visualización interactiva de los colores generados en diferentes tonos y matices.
+  </li>
+  <li>
+    📋 Copia rápida del código hexadecimal al portapapeles.
+  </li>
+  <li>
+    🖌️ Interfaz intuitiva y responsiva.
+  </li>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+</ul>
+
+<h1> 🛠 Instalación </h1>
+
+
+Antes de ejecutar el proyecto, recuerda instalar las dependencias necesarias:
+
+
+```sh
+rm -rf node_modules package-lock.json
+npm install
+npm install values.js
+```
